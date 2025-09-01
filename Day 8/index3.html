@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- actioninsid form is used to give url of server ehere this data to be send -->
+    <form>
+        <fieldset>
+            <legend>User Info</legend>
+        
+        <label for="name">Full Name:</label>
+        <input type="text" name="full_name" id="name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+
+        <label for="phone_no">Phone :</label>
+        <input type="tel" name="contact_no" id="phone_no">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Personal info</legend>
+        
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" name="DOB" id="DOB" min="2001-01-01" max="2005-12-31">
+        <br><br>
+
+        <label for="school">School Name:</label>
+        <input type="text" name="school_name" id="school">
+        <br><br>
+
+        <label for="board">Board:</label>
+        <select name="board" id="board">
+            <option disabled selected>Select Board</option>
+            <option value="CBSE">CBSE</option>
+            <option value="ICSE">ICSE</option>
+        </select>
+        <br><br>
+
+        <label for="year">Year of passing:</label>
+        <input type="number" id="year" name="year-of_passing" min="2023" max="2025">
+        <br><br>
+
+
+        <label for="exam_center">Exam Center</label>
+        <select name="exam_center" id="exam_center">
+            <option disabled selected>Select Center</option>
+            <option value="Gurugram">Gurugram</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Noida">Noida</option>
+        </select>
+        <br><br>
+
+        </fieldset>
+        <br><br>
+
+        <button>Register</button>
+
+        
+    </form>
+
+    
+    
+</body>
+</html>
