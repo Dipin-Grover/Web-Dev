@@ -1,0 +1,47 @@
+/* body selector */
+
+/* body{
+    background-color: burlywood;
+} */
+
+
+/* universal selector */
+
+/* *
+{
+    background-color: cadetblue;
+} */
+
+
+/* grouping selector */
+/* h1,p,h4{
+    background-color: beige;
+} */
+
+/* select by attribute */
+/* p[draggable="true"]
+{
+    background-color: khaki;
+} */
+
+
+/* select by decendent */
+/* section p{
+    background-color: aqua;
+} */
+
+/* child selector */
+/* section>p{
+    background-color: cadetblue;
+} */
+
+
+.second
+{
+    background-color: bisque;
+}
+
+#yoyo
+{
+    color: blue;
+}

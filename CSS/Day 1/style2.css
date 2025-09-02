@@ -1,0 +1,25 @@
+h1{
+    background-color: aqua;
+}
+
+ul{
+    color: blueviolet;
+    background-color: beige;
+}
+
+/* class selector we use dot (.) */
+.first
+{
+    background-color: burlywood;
+}
+
+.second
+{
+    color: cadetblue;
+}
+
+/* id selector we use hashtag (#) */
+#third
+{
+    background-color: aliceblue;
+}

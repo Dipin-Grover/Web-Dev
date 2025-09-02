@@ -1,0 +1,44 @@
+/* rgb colors 0-255 */
+/* h1{
+    color: rgb(122, 88, 88);
+} */
+
+/* hexadecimal values */
+/* p{
+    color: #ba728a;
+} */
+
+/* using hsl */
+/* h1{
+    color: hsl(120, 19%, 32%);
+} */
+
+/* using rgba */
+/* a is alpha stand for transparency and opequeness 0 is transparent and 1 is opaque */
+/* p{
+    color: rgba(51 , 207 , 214 , 0.62);
+} */
+
+/* bakground properties */
+/* body{
+    background-color: #32a848;
+    background-image: url(https://t4.ftcdn.net/jpg/04/39/89/01/360_F_439890152_sYbPxa1ANTSKcZuUsKzRAf9O7bJ1Tx5B.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+
+/* font family */
+/* em -> text size according to parent  */
+/* rem -> relative to root (html tag) */
+/* % -> according to parent */
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-size: 5em;
+    font-size: 4rem;
+    font-size: 90%;
+
+    font-size: 10vh;
+}
