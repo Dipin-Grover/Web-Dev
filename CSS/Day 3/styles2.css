@@ -1,0 +1,55 @@
+/* h1{
+    background-color: bisque 
+    
+} */
+
+/* .first_class
+{
+    background-color: cadetblue;
+} */
+
+ /* #first_id
+{
+    background-color: aqua; 
+} */
+
+/* h1[draggable = "true"]
+{
+    background-color: rgb(165, 32, 32);
+} */
+
+
+
+/* body >h1{
+    background-color: darksalmon;
+} */
+
+/* body h1
+{
+    background-color: rgb(162, 77, 77); 
+} */
+
+/* h1,h2{
+    background-color: rgb(137, 175, 83);
+} */
+
+/* id then attribute then class then child or decenden then element or groupiing this is the order */
+/* decendent and child selector have same level of priority so which came last would be applied  */
+
+/* !importent sabka baap h  */
+
+
+
+
+
+
+/* interanl and external have same priority we will see jo last aya wo lagega  */
+
+
+body{
+    background-color: cadetblue;
+}
+
+ul{
+    background-color: burlywood;
+}
